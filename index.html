@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>witcher web page</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/content.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    </head>
+
+    <body>
+        <div class="sparkle">
+            <img src="styles/images/Sparkle.png">
+        </div>
+
+            <input class="change1" type="button" value=" " onclick="changeBgColor('#000')">
+            <input class="change2"  type="button" value=" " onclick="changeBgColor('#fff')">
+            <input class="change3"  type="button" value=" " onclick="changeBgColor('#520606')">
+
+        <header>
+            <img src="styles/images/Witcher_3.png" alt="logotype">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">profile</a></li>
+                <li><a href="#">message</a></li>
+                <li><a href="#">logout</a></li>
+            </ul>
+        </header>
+
+        <div id="back-image">
+            <img src="styles/images/Flame_Circle.png" alt="flame" class="Flame">
+        </div>
+        <div id="center-image">
+            <img src="styles/images/Geralt.png" alt="Geralt" class="Geralt">
+        </div>
+        <main>
+
+            <input type="search" name="search" id="searchBox" placeholder="search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </main>
+        <script>
+            function changeBgColor(color){
+    const body = document.querySelector('body');
+    body.style.background = color;
+}
+        </script>
+    </body>
+</html>

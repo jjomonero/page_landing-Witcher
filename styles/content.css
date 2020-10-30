@@ -1,0 +1,24 @@
+#back-image{
+    position: fixed;
+    left: 17.2%;
+    background: none;
+}
+
+#back-image .Flame{
+    width: 80%;
+    height: 80%;
+    background: none;
+}
+
+#center-image{
+   position: fixed;
+   left: 33.2%;
+   background: none;
+}
+
+#center-image .Geralt{
+    width: 60%;
+    height: 60%;
+    z-index: 1;
+    background: none;
+}

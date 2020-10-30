@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: black;
+}
+
+.change1, .change2, .change3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 20px;
+    border: none;
+
+    width: 30px;
+
+    opacity: 50%;
+
+    outline: none;
+}
+
+.change1:hover, .change2:hover, .change3:hover{
+    opacity: 100%;
+    
+    cursor: pointer;
+}
+
+.change3{
+    position: absolute;
+    bottom: 25%;
+
+    background: #520606;
+}
+
+.change2{
+    position: absolute;
+    bottom: 30%;
+
+    background: #fff;
+}
+
+.change1{
+    position: absolute;
+    bottom: 35%;
+
+    background: #000;
+
+    text-decoration: none;
+}
+
+.sparkle{
+    position: fixed;
+    background: none;
+}
+
+
